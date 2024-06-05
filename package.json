@@ -9,7 +9,8 @@
     "test:ci": "npm run test",
     "coverage": "gulp coverage",
     "build": "gulp",
-    "pub": "npm run build && npm publish"
+    "pub": "npm run build && npm publish",
+    "postinstall": "npx patch-package"
   },
   "keywords": [
     "dogecoin",
